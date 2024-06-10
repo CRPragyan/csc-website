@@ -85,7 +85,7 @@ function Header() {
               <Link to={"/"}>Home</Link>
               <Link to={"/courses"}>Courses</Link>
               <Link to={"/about"}>About Us</Link>
-              <Link to={"/conatct"}>Conact</Link>
+              <Link to={"/conatct"}>Contact</Link>
             </div>
             <div className="flex">
               <button className="text-white bold">
