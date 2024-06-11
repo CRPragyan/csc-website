@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Courses() {
   return (
-    <div className="max-w-6xl mx-auto my-0">
+    <div className="max-w-6xl mx-auto my-0 mb-9">
       <h1 className="text-3xl bold text-center mb-7 font-semibold">
         Our Courses
       </h1>
