@@ -81,7 +81,7 @@ function Header() {
         </div>
         <div className="bg-gradient-to-r from-blue-900 to-blue-500 p-6 ">
           <div className="flex justify-between items-center max-w-6xl mx-auto my-y">
-            <div className="flex  gap-7  text-xl text-white font-semibold">
+            <div className="flex  gap-8  text-l text-white font-semibold">
               <Link to={"/"}>Home</Link>
               <Link to={"/courses"}>Courses</Link>
               <Link to={"/about"}>About Us</Link>
