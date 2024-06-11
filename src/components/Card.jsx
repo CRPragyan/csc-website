@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Card({ img, title }) {
   return (
     <div>
-      <div className="w-70">
+      <div className="md:w-full w-4/5 mx-auto my-0 shadow-md rounded-md bg-white">
         <div className="relative h-60">
           <img
-            className="absolute object-center object-cover w-full h-full"
+            className="absolute object-center object-cover w-full h-full overflow-hidden rounded-t-sm"
             src={img}
             alt=""
           />
-          <div className="absolute -bottom-4 left-28 ">
+          <div className="absolute -bottom-4 md:left-28 left-32 ">
             <h2 className="bg-orange-500 text-xl px-8 py-1 text-white rounded-full ">
               {title}
             </h2>

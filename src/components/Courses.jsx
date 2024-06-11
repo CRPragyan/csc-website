@@ -4,8 +4,10 @@ import Card from "./Card";
 function Courses() {
   return (
     <div className="max-w-6xl mx-auto my-0">
-      <h1 className="text-3xl bold text-center mb-7 ">Our Courses</h1>
-      <div className="grid grid-cols-3 gap-9 ">
+      <h1 className="text-3xl bold text-center mb-7 font-semibold">
+        Our Courses
+      </h1>
+      <div className="grid md:grid-cols-3 gap-9 grid-cols-1">
         <Card
           img={
             "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

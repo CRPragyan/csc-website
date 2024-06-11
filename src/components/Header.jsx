@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-      <header className="">
-        <div className="flex gap-3 max-w-6xl mx-auto my-0 justify-between items-center">
+      <header className="bg-blue-100">
+        <div className="flex gap-3 max-w-6xl mx-auto my-0 md:justify-between justify-center items-center">
           <Link to={"/"} className="flex items-center gap-1 h-24 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -21,13 +21,13 @@ function Header() {
               />
             </svg>
 
-            <span className="text-3xl font-mono ">
+            <span className="md:text-3xl font-mono text-2xl items-center">
               <span className="text-orange-500 bold">Common</span> Service
               Center
             </span>
           </Link>
           <div className="flex gap-3">
-            <div className="flex gap-2 justify-center items-center">
+            <div className="md:flex gap-2 justify-center items-center hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -50,7 +50,7 @@ function Header() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center gap-2">
+            <div className="md:flex justify-center items-center gap-2 hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 
 export default function IndexPage() {
   return (
-    <div className="">
+    <div className="bg-blue-100">
       <Hero />
       <Courses />
     </div>
