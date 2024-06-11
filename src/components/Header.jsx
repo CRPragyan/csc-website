@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       <header className="">
-        <div className="flex gap-3 max-w-6xl mx-auto my-y justify-between items-center">
+        <div className="flex gap-3 max-w-6xl mx-auto my-0 justify-between items-center">
           <Link to={"/"} className="flex items-center gap-1 h-24 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
