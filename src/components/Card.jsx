@@ -1,20 +1,20 @@
-function Card() {
+function Card({ img, title }) {
   return (
     <div>
-      <div className="w-80 ">
-        <div className="relative">
+      <div className="w-70">
+        <div className="relative h-60">
           <img
-            className="mb-9"
-            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="absolute object-center object-cover w-full h-full"
+            src={img}
             alt=""
           />
-          <div className=" absolute -bottom-4 left-24 flex  ">
+          <div className="absolute -bottom-4 left-28 ">
             <h2 className="bg-orange-500 text-xl px-8 py-1 text-white rounded-full ">
-              PGDCSA
+              {title}
             </h2>
           </div>
         </div>
-        <div className="flex justify-center items-center text-orange-500 mb-6">
+        <div className="flex justify-center items-center text-orange-500 mt-9">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -29,10 +29,9 @@ function Card() {
           </svg>
           <p>Duration: 1 Year</p>
         </div>
-        <p>
-          <p className="text-center text-xl mb-6">
-            Post Graduate Diploma In computer Application
-          </p>
+
+        <p className="text-center text-xl mt-6">
+          Post Graduate Diploma In computer Application
         </p>
       </div>
     </div>
