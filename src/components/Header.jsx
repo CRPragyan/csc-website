@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <header className="bg-blue-100">
-        <div className="flex gap-3 max-w-6xl mx-auto my-0 md:justify-between justify-center items-center">
-          <Logo />
+        <div className="flex gap-3 max-w-6xl mx-auto my-0 md:justify-between justify-center items-center h-24">
+          <Logo size={"text-3xl"} responsive={""} />
           <div className="flex gap-3">
             <div className="md:flex gap-2 justify-center items-center hidden">
               <svg
@@ -62,11 +62,11 @@ function Header() {
         </div>
         <div className="bg-gradient-to-r from-blue-900 to-blue-500 p-6 ">
           <div className="flex justify-between items-center max-w-6xl mx-auto my-y">
-            <div className="flex  gap-8  text-l text-white font-semibold">
+            <div className="flex  md:gap-8 gap-3  text-l text-white font-semibold">
               <Link to={"/"}>Home</Link>
               <Link to={"/courses"}>Courses</Link>
               <Link to={"/about"}>About Us</Link>
-              <Link to={"/conatct"}>Contact</Link>
+              <Link to={"/contact"}>Contact</Link>
             </div>
             <div className="flex">
               <button className="text-white bold">

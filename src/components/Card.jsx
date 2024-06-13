@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
-function Card({ img, title }) {
+function Card({ img, title, name, duration }) {
   return (
     <div>
-      <div className="md:w-full w-4/5 mx-auto my-0 shadow-md rounded-md bg-white">
-        <div className="relative h-60">
+      <div className="md:w-full w-4/5 mx-auto my-0 hover:scale-105 shadow-md hover:shadow-lg transition-all rounded-md bg-white">
+        <div className="relative h-60 ">
           <img
             className="absolute object-center object-cover w-full h-full overflow-hidden rounded-t-sm"
             src={img}
             alt=""
           />
-          <div className="absolute -bottom-4 md:left-28 left-32 ">
+          <div className="absolute -bottom-4 md:left-28 left-[28%] ">
             <h2 className="bg-orange-500 text-xl px-8 py-1 text-white rounded-full ">
               {title}
             </h2>
@@ -29,12 +29,12 @@ function Card({ img, title }) {
               clipRule="evenodd"
             />
           </svg>
-          <p>Duration: 1 Year</p>
-        </div>
 
-        <p className="text-center text-xl mt-6">
-          Post Graduate Diploma In computer Application
-        </p>
+          <p>Duration: {duration}</p>
+        </div>
+        <div className="">
+          <p className="text-center text-xl py-4">{name}</p>
+        </div>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function Logo() {
+function Logo({ size, responsive }) {
   return (
     <div>
-      <Link to={"/"} className="flex items-center gap-1 h-24 ">
+      <Link to={"/"} className="flex items-center gap-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -19,7 +19,7 @@ function Logo() {
           />
         </svg>
 
-        <span className="md:text-3xl font-mono text-2xl items-center">
+        <span className={`${size} md:${size} font-mono items-center`}>
           <span className="text-orange-500 bold">Common</span> Service Center
         </span>
       </Link>
