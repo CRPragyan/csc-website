@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 
-function PlacePage() {
+function CourseSingle() {
   const { id } = useParams();
   return <div>Place Page: {id}</div>;
 }
 
-export default PlacePage;
+export default CourseSingle;
