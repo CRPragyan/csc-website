@@ -4,7 +4,7 @@ function Card({ img, title, name, duration, id }) {
   return (
     <div>
       <div className="md:w-full w-4/5 mx-auto my-0 hover:scale-105 shadow-md hover:shadow-lg transition-all rounded-md bg-white">
-        <Link to={"/place/" + id}>
+        <Link to={"/course/" + id + "/" + name}>
           <div className="relative h-60 ">
             <img
               className="absolute object-center object-cover w-full h-full overflow-hidden rounded-t-sm"
