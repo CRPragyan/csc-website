@@ -1,21 +1,23 @@
 import { Link } from "react-router-dom";
 
-function Card({ img, title, name, duration }) {
+function Card({ img, title, name, duration, id }) {
   return (
     <div>
       <div className="md:w-full w-4/5 mx-auto my-0 hover:scale-105 shadow-md hover:shadow-lg transition-all rounded-md bg-white">
-        <div className="relative h-60 ">
-          <img
-            className="absolute object-center object-cover w-full h-full overflow-hidden rounded-t-sm"
-            src={img}
-            alt=""
-          />
-          <div className="absolute -bottom-4 md:left-28 left-[28%] ">
-            <h2 className="bg-orange-500 text-xl px-8 py-1 text-white rounded-full ">
-              {title}
-            </h2>
+        <Link to={"/place/" + id}>
+          <div className="relative h-60 ">
+            <img
+              className="absolute object-center object-cover w-full h-full overflow-hidden rounded-t-sm"
+              src={img}
+              alt=""
+            />
+            <div className="absolute -bottom-4 md:left-28 left-[28%] ">
+              <h2 className="bg-orange-500 text-xl px-8 py-1 text-white rounded-full ">
+                {title}
+              </h2>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="flex justify-center items-center text-orange-500 mt-9">
           <svg
             xmlns="http://www.w3.org/2000/svg"

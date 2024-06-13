@@ -15,6 +15,7 @@ function Courses() {
             name={card.name}
             img={card.img}
             duration={card.duration}
+            id={card.id}
           />
         ))}
       </div>
