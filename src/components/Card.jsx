@@ -34,7 +34,7 @@ function Card({ img, title, name, duration, id }) {
 
           <p>Duration: {duration}</p>
         </div>
-        <div className="">
+        <div className="h-24 p-2">
           <p className="text-center text-xl py-4">{name}</p>
         </div>
       </div>

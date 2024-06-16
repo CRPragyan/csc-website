@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { CardData } from "../assets/Data";
+import CardData from "../assets/data.json";
+import SyllabusData from "../assets/syllabus.json";
+import Syllabus from "../components/Syllabus";
 
 function CourseSingle() {
   const { id } = useParams();
@@ -35,8 +37,11 @@ function CourseSingle() {
           {course.name}
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto my-6 text-center text-orange-500 text-3xl">
-        <h1>Description</h1>
+      <div className="max-w-6xl mx-auto my-6 text-center">
+        <h1 className=" text-orange-500 text-4xl">Syllabus</h1>
+        <div className="mt-9">
+          <Syllabus courseTitle={course.title} SyllabusData={SyllabusData} />
+        </div>
       </div>
     </div>
   );

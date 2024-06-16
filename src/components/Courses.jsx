@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { CardData } from "../assets/Data";
+import CardData from "../assets/data.json";
 
 function Courses() {
   return (

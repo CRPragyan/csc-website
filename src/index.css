@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
+table {
+  @apply w-full border-collapse shadow-sm;
 }
 
-.animate-blink {
-  animation: blink 1s step-end infinite;
+thead th {
+  @apply bg-orange-200 border-b p-3 text-center;
+}
+
+tbody td {
+  @apply border-b px-10 py-2 text-left;
 }

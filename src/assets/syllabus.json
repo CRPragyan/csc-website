@@ -1,0 +1,53 @@
+{
+  "PGDCSA": {
+    "Semester 1": [
+      {
+        "Code": "ET-CA-01",
+        "Subject": "Introduction to ICT Tools"
+      },
+      {
+        "Code": "ET-CA-21",
+        "Subject": "introduction to ICT Resourses",
+        "CodeO": "ET-CA-22",
+        "SubjectO": "Multimedia and Animation Technology"
+      },
+      {
+        "Code": "ET-CA-03",
+        "Subject": "Internet and Web Technology"
+      },
+
+      {
+        "Code": "ET-CA-41",
+        "Subject": "Object Oriented Programming through C++",
+        "CodeO": "ET-CA-42",
+        "SubjectO": "Programming and problem solving through Python Lagunage"
+      },
+      {
+        "Code": "ET-CA-PJ1",
+        "Subject": "Mini Project(100 Marks)"
+      }
+    ],
+    "Semester 2": [
+      {
+        "Code": "ET-CA-05",
+        "Subject": "Computer System Architecture"
+      },
+      {
+        "Code": "ET-CA-06",
+        "Subject": "System Concept & introduction to Database Management"
+      },
+      {
+        "Code": "ET-CA-07",
+        "Subject": "Data Structure Using 'C++'"
+      },
+      {
+        "Code": "ET-CA-08",
+        "Subject": "Web Programming Using LAMP"
+      },
+      {
+        "Code": "ET-CA-PJ2",
+        "Subject": "MAjor Project(200 Marks)"
+      }
+    ]
+  }
+}
