@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 import CardData from "../assets/data.json";
 import SyllabusData from "../assets/syllabus.json";
@@ -8,6 +8,8 @@ function CourseSingle() {
   const { id } = useParams();
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const pdfComponent = useRef();
 
   useEffect(() => {
     if (!id) return;
@@ -37,9 +39,11 @@ function CourseSingle() {
           {course.name}
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto my-6 text-center">
+      <div className="max-w-6xl mx-auto my-6 ">
+        <h1 className=" text-orange-500 text-4xl mb-3">Description</h1>
+        <p className="text-xl mb-4 text-gray-600">{course.description}</p>
         <h1 className=" text-orange-500 text-4xl">Syllabus</h1>
-        <div className="mt-9">
+        <div className="mt-2">
           <Syllabus courseTitle={course.title} SyllabusData={SyllabusData} />
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Logo({ size, responsive }) {
   return (
     <div>
-      <Link to={"/"} className="flex items-center gap-1">
+      <Link to={"/"} className="flex items-center gap-1 hover:text-current">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
