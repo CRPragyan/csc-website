@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Card({ img, title, name, duration, id }) {
+function Card({ img, title, name, duration, id,minQualification }) {
   return (
     <div>
       <div className="md:w-full w-4/5 mx-auto my-0 hover:scale-105 shadow-md hover:shadow-lg transition-all rounded-md bg-white">
@@ -18,7 +18,7 @@ function Card({ img, title, name, duration, id }) {
             </div>
           </div>
         </Link>
-        <div className="flex justify-center items-center text-orange-500 mt-9">
+        <div className="flex justify-center items-center text-orange-500 mt-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -32,7 +32,17 @@ function Card({ img, title, name, duration, id }) {
             />
           </svg>
 
+          
           <p>Duration: {duration}</p>
+          
+
+        </div>
+        <div className="flex justify-center items-center text-orange-500">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+</svg>
+
+        <p>Qualification: {minQualification}</p>
         </div>
         <div className="h-24 p-2">
           <p className="text-center text-xl py-4">{name}</p>

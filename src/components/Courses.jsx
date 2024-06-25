@@ -16,6 +16,7 @@ function Courses() {
             img={card.img}
             duration={card.duration}
             id={card.id}
+            minQualification={card.minQualification}
           />
         ))}
       </div>

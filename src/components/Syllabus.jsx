@@ -23,7 +23,7 @@ export default function Syllabus({ courseTitle, SyllabusData }) {
       <div ref={componentRef}>
         {Object.keys(syllabus).map((semester, index) => (
           <div className="max-w-6xl mx-auto my-0 py-5" key={index}>
-            <h2 className="md:text-2xl text-xl text-start  text-orange-500 my-3">
+            <h2 className="md:text-2xl text-xl text-start ml-4  text-orange-500 my-3">
               {semester}
             </h2>
             <table className="md:text-lg tracking-wide text-sm">
@@ -44,10 +44,10 @@ export default function Syllabus({ courseTitle, SyllabusData }) {
                     </tr>
                     {paper.CodeO && paper.SubjectO && (
                       <>
-                        <tr>
+                        {/* <tr>
                           <td>{paper.CodeO} (Optional)</td>
                           <td>{paper.SubjectO}</td>
-                        </tr>
+                        </tr> */}
                       </>
                     )}
                   </>
