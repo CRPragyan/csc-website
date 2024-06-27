@@ -27,7 +27,7 @@ function Header() {
               <div>
                 <h1 className="">Working Time</h1>
                 <p className="text-sm text-gray-500 semi-bold">
-                  Monday - Friday: 08 AM - 06 PM
+                  Monday - Sarturday: 10.00 AM - 8.00 PM
                 </p>
               </div>
             </div>
