@@ -1,26 +1,19 @@
 [
   {
-    "id": "5",
-    "title": "CCA",
-    "name": "Certificate Course in Computer Application",
-    "minQualification":"HSLC Appeared",
-    "duration": "3 month",
-    "img": "https://plus.unsplash.com/premium_photo-1687892170417-f9a11a402ef7?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "id": "1",
+    "title": "PGDCSA",
+    "name": "Post Graduate Diploma In computer Application",
+    "description": "The Post Graduate Diploma in Computer Science and Applications (PGDCSA) is designed for aspiring professionals looking to enhance their skills in computer science and its applications. This intensive program offers a blend of theoretical knowledge and practical skills necessary to thrive in today's technology-driven world.",
+    "minQualification": "Graduate",
+    "duration": "1 Year",
+    "img": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
-  {
-    "id": "4",
-    "title": "PDCA",
-    "name": "Professional Diploma In Computer Application",
-    "minQualification":"HSLC Appeared",
-    "duration": "6 month",
-    "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  
+
   {
     "id": "2",
     "title": "DCOA",
-    "name": "Diploma in Computerised Office Automation",
-    "minQualification":"HSLC Passed",
+    "name": "Diploma in Computer Office Assistant",
+    "minQualification": "HSLC Passed",
     "duration": "1 year",
     "img": "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -29,8 +22,8 @@
     "id": "3",
     "title": "ADCA",
     "name": "Advance diploma in computer science ",
-    "minQualification":"HS Passed",
-    "duration": "1 year",
+    "minQualification": "HS Passed",
+    "duration": "6 month",
     "img": "https://images.unsplash.com/photo-1517134062979-e1234be8a085?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/img/photo2.jpg"
   },
   {
@@ -38,9 +31,8 @@
     "title": "PGDCSA",
     "name": "Post Graduate Diploma In computer Application",
     "description": "The Post Graduate Diploma in Computer Science and Applications (PGDCSA) is designed for aspiring professionals looking to enhance their skills in computer science and its applications. This intensive program offers a blend of theoretical knowledge and practical skills necessary to thrive in today's technology-driven world.",
-    "minQualification":"Graduate",
+    "minQualification": "Graduate",
     "duration": "1 Year",
     "img": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
-  
 ]

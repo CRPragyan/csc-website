@@ -50,72 +50,68 @@
       }
     ]
   },
-  "ADCA":{
-    "Semester 1":[
+  "ADCA": {
+    "Semester 1": [
       {
-        "Code":"ET-CA-01",
-        "Subject":"Introduction to ICT Tools"
+        "Code": "ET-CA-01",
+        "Subject": "Introduction to ICT Tools"
       },
       {
-        "Code":"ET-CA-21",
-       "Subject":"introduction to ICT Resourses",
-       "CodeO":"ET-CA-22",
-       "SubjectO":"Multimedia and Animation Technology"
-
+        "Code": "ET-CA-21",
+        "Subject": "introduction to ICT Resourses",
+        "CodeO": "ET-CA-22",
+        "SubjectO": "Multimedia and Animation Technology"
       },
       {
-        "Code":"ET-CA-11",
-        "Subject":"DTP & Financial Accounting"
+        "Code": "ET-CA-11",
+        "Subject": "DTP & Financial Accounting"
       }
     ],
     "Semester 2": [
-     {
-      "Code":"ET-CA-03",
-      "Subject":"Internet and Web Technology"
-      
-     },
-     {
-      "Code":"ET-CA-41",
-      "Subject":"Object Oriented Programming through C++",
-      "CodeO":"ET-CA-42",
-      "SubjectO":"Programming and problem solving through Python Lagunage"
-     },
-    {
-      "Code":"ET-CA-08",
-      "Subject":"Web Programming Using LAMP"
-    },
-    {
-      "Code":"ET-CA-PJ1",
-      "Subject":"Mini Project(100 Marks)"
-    }
+      {
+        "Code": "ET-CA-03",
+        "Subject": "Internet and Web Technology"
+      },
+      {
+        "Code": "ET-CA-41",
+        "Subject": "Object Oriented Programming through C++",
+        "CodeO": "ET-CA-42",
+        "SubjectO": "Programming and problem solving through Python Lagunage"
+      },
+      {
+        "Code": "ET-CA-08",
+        "Subject": "Web Programming Using LAMP"
+      },
+      {
+        "Code": "ET-CA-PJ1",
+        "Subject": "Mini Project(100 Marks)"
+      }
     ]
-
   },
-    "DCOA":{
-      "Semester 1":[
-        {
-          "Code":"ET-CA-01",
-          "Subject":"Introduction to ICT Tools"
-        },
-        {
-          "Code":"ET-CA-11",
-          "Subject":"DTP & Financial Accounting"
-        }
-        
-      ],
-      "Semester 2":[
-        {
-          "Code":"ET-OA-03",
-          "Subject":"Office Managment and Secretial Service"
-        },
-        {
-          "Code":"ET-OA-04",
-          "Subject":"Basic Online Application And Google Workspace"
-        },
-        {
-          "Code":"ET-OA-PJ",
-          "Subject":"Mini Project & Seminer"
-        }
-      ]
-    }
+  "DCOA": {
+    "Semester 1": [
+      {
+        "Code": "ET-CA-01",
+        "Subject": "Introduction to ICT Tools"
+      },
+      {
+        "Code": "ET-CA-11",
+        "Subject": "DTP & Financial Accounting"
+      }
+    ],
+    "Semester 2": [
+      {
+        "Code": "ET-OA-03",
+        "Subject": "Office Managment and Secretial Service"
+      },
+      {
+        "Code": "ET-OA-04",
+        "Subject": "Basic Online Application And Google Workspace"
+      },
+      {
+        "Code": "ET-OA-PJ",
+        "Subject": "Mini Project & Seminer"
+      }
+    ]
+  }
 }
