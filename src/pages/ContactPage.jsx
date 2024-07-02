@@ -1,7 +1,10 @@
+import MapComponent from "../components/MapComponent";
+
 function ContactPage() {
   return (
     <div className="container">
       <h1 className="text-center text-3xl my-4">Contact Us</h1>
+      <MapComponent/>
 
       <form action="">
         <div className="flex gap-10">
