@@ -28,9 +28,9 @@ a {
 
 input[type="text"],
 input[type="email"] {
-  @apply w-full px-4 py-4 border-2 border-gray-100;
+  @apply w-full px-4 py-4 border-2 border-orange-200;
 }
 
 textarea {
-  @apply w-full px-4 py-4 border-2 border-gray-100 mt-6;
+  @apply w-full px-4 py-4 border-2 border-orange-200 mt-6;
 }
