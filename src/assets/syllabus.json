@@ -125,5 +125,13 @@
         "Subject": "DTP & Financial Accounting"
       }
     ]
+  },
+  "CCA": {
+    "Semester 1": [
+      {
+        "Code": "ET-CA-01",
+        "Subject": "Introduction to ICT Tools"
+      }
+    ]
   }
 }
