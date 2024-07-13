@@ -11,7 +11,7 @@ function ContactPage() {
           <div className="  bg-orange-400  w-96 text-center flex flex-col items-center gap-9 justify-center ">
             <div>
               <h1 className="text-xl font-bold">Adress</h1>
-              <p>basugaon</p>
+              <p>Basugaon, Dhanbazar, Near Durga Mandir</p>
             </div>
             <div>
               <h1 className="text-xl font-bold">Phone</h1>
@@ -23,7 +23,7 @@ function ContactPage() {
             </div>
             <div>
               <h1 className="text-xl font-bold">Working Time</h1>
-              <p>working time</p>
+              <p>Monday - Sarturday: 10.00 AM - 8.00 PM</p>
             </div>
           </div>
           <div className=" ">

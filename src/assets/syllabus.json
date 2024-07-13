@@ -113,5 +113,17 @@
         "Subject": "Mini Project & Seminer"
       }
     ]
+  },
+  "PDCA": {
+    "Semester 1": [
+      {
+        "Code": "ET-CA-01",
+        "Subject": "Introduction to ICT Tools"
+      },
+      {
+        "Code": "ET-CA-11",
+        "Subject": "DTP & Financial Accounting"
+      }
+    ]
   }
 }
