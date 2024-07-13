@@ -3,6 +3,7 @@
     "id": "5",
     "title": "CCA",
     "name": "Certificate Course in Computer Application",
+    "description": "The CCA (Certificate in Computer Applications) program provides foundational training with a focus on ICT tools. The course, Introduction to ICT Tools (ET-CA-01), covers essential concepts and skills needed to effectively use information and communication technology in various applications. This certificate program is ideal for beginners looking to build a strong base in computer applications.",
     "minQualification": "HSLC Appeared",
     "duration": "3 month",
     "img": "https://plus.unsplash.com/premium_photo-1687892170417-f9a11a402ef7?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -11,6 +12,7 @@
     "id": "4",
     "title": "PDCA",
     "name": "Professional Diploma In Computer Application",
+    "description": "The PDCA (Professional Diploma in Computer Applications) program's first semester focuses on foundational skills. Students learn Introduction to ICT Tools (ET-CA-01) and gain proficiency in Desktop Publishing (DTP) and Financial Accounting (ET-CA-11). This program is designed to provide advanced knowledge and practical skills in computer applications, preparing professionals for roles in various industries requiring strong ICT competency.",
     "minQualification": "HSLC Appeared",
     "duration": "6 month",
     "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
