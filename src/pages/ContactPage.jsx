@@ -10,16 +10,17 @@ function ContactPage() {
         <div className=" flex mt-6">
           <div className="  bg-orange-400  w-96 text-center flex flex-col items-center gap-9 justify-center ">
             <div>
-              <h1 className="text-xl font-bold">Adress</h1>
-              <p>Basugaon, Dhanbazar, Near Durga Mandir</p>
+              <h1 className="text-xl font-bold">Address</h1>
+              <p>Basugaon, Dhanbazar, Ward No-2, </p>
+              <p>Near Durga Mandir,Dist-Chirang(783372)</p>
             </div>
             <div>
               <h1 className="text-xl font-bold">Phone</h1>
-              <p>Your Phone No.</p>
+              <p>8402865264</p>
             </div>
             <div>
               <h1 className="text-xl font-bold">Email</h1>
-              <p>Your Email Adress</p>
+              <p>csc.basugaon@gmail.com</p>
             </div>
             <div>
               <h1 className="text-xl font-bold">Working Time</h1>

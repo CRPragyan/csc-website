@@ -3,7 +3,7 @@
     "id": "5",
     "title": "CCA",
     "name": "Certificate Course in Computer Application",
-    "description": "The CCA (Certificate in Computer Applications) program provides foundational training with a focus on ICT tools. The course, Introduction to ICT Tools (ET-CA-01), covers essential concepts and skills needed to effectively use information and communication technology in various applications. This certificate program is ideal for beginners looking to build a strong base in computer applications.",
+    "description": "The CCA (Certificate Course in Computer Applications) program provides foundational training with a focus on ICT tools. The course, Introduction to ICT Tools (ET-CA-01), covers essential concepts and skills needed to effectively use information and communication technology in various applications. This certificate program is ideal for beginners looking to build a strong base in computer applications.",
     "minQualification": "HSLC Appeared",
     "duration": "3 month",
     "img": "https://plus.unsplash.com/premium_photo-1687892170417-f9a11a402ef7?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -31,7 +31,7 @@
   {
     "id": "3",
     "title": "ADCA",
-    "name": "Advanced Diploma inomputer Application ",
+    "name": "Advanced Diploma in Computer Application ",
     "description": "The ADCA (Advanced Diploma in Computer Applications) program offers advanced training over two semesters. In the first semester, students learn ICT tools, ICT resources or multimedia and animation technology, and DTP & financial accounting. The second semester covers internet and web technology, object-oriented programming through C++ or Python, web programming using LAMP, and includes a mini project. This program equips students with essential and advanced computer application skills.",
     "minQualification": "HS Passed",
     "duration": "1 year",
