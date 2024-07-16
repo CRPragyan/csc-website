@@ -31,7 +31,7 @@
   {
     "id": "3",
     "title": "ADCA",
-    "name": "Advance diploma in computer science ",
+    "name": "Advanced Diploma inomputer Application ",
     "description": "The ADCA (Advanced Diploma in Computer Applications) program offers advanced training over two semesters. In the first semester, students learn ICT tools, ICT resources or multimedia and animation technology, and DTP & financial accounting. The second semester covers internet and web technology, object-oriented programming through C++ or Python, web programming using LAMP, and includes a mini project. This program equips students with essential and advanced computer application skills.",
     "minQualification": "HS Passed",
     "duration": "1 year",
@@ -40,7 +40,7 @@
   {
     "id": "1",
     "title": "PGDCSA",
-    "name": "Post Graduate Diploma In computer Application",
+    "name": "Post Graduate Diploma In Computer Science and Application",
     "description": "The Post Graduate Diploma in Computer Science and Applications (PGDCSA) is designed for aspiring professionals looking to enhance their skills in computer science and its applications. This intensive program offers a blend of theoretical knowledge and practical skills necessary to thrive in today's technology-driven world.",
     "minQualification": "Graduate",
     "duration": "1 Year",
