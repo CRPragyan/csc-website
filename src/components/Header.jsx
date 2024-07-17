@@ -6,7 +6,12 @@ function Header() {
     <div>
       <header className="bg-blue-100">
         <div className="flex gap-3 max-w-7xl mx-auto my-0 md:justify-between justify-center items-center h-24">
-          <Logo size={"text-3xl"} responsive={""} />
+          <div>
+            <Logo size={"text-3xl"} responsive={""} />
+            <h2 className="text-3xl my-2 text-blue-800 capitalize">
+              Amtron Authorised computer Training center
+            </h2>
+          </div>
           <div className="flex gap-3">
             <div className="md:flex gap-2 justify-center items-center hidden">
               <svg
