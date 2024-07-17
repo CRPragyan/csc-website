@@ -13,8 +13,8 @@ function Footer() {
             Basugaon, Dhanbazar, Near Durga Mandir
             <br />
             Assam-783372 (BTR)
-            <br /> Contact No - (Conact number)
-            <br /> Email - (Email Id)
+            <br /> Contact No - (8402865264)
+            <br /> Email - (csc.basugaon@gmail.com)
           </p>
         </div>
 
