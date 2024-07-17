@@ -19,10 +19,11 @@ function Hero() {
             </h1>
 
             <p className="text-white text-sm mb-7 tracking-wide leading-7">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              molestias est quaerat nisi numquam voluptas, deserunt libero,
-              laborum repudiandae officia ratione nam totam veniam quos
-              perspiciatis. Dolorum qui dolorem quam!
+              The mission of Common Service Center, Basugaon is to make the
+              entire community of this locality digitally literate and providing
+              computer training to the students and unemployed youth with
+              dedicated, talented, experienced teachers who motivate and
+              energies the students to achieve the best.
             </p>
             <div className="">
               <button className="text-white mix-blend-lighten bg-orange-500 px-4 py-2 rounded-full text-lg hover:bg-orange-600 transition-all font-semibold">
