@@ -14,7 +14,7 @@ function AboutPage() {
     <div className="bg-gray-100 text-gray-800 p-8">
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold mb-6">About Us</h1>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="md:text-lg text-sm leading-relaxed mb-6">
           Common Service Center, Basugaon is an Amtron authorised Computer
           Training Centre located in Basugaon, W/no- 2, Dist- Chirang, Assam,
           India. It is playing a key role in making the people of this locality

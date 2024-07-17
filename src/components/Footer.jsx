@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-blue-900 text-white">
-      <div className="max-w-6xl mx-auto flex justify-between items-start py-4">
+      <div className="max-w-6xl mx-auto md:flex justify-between grid grid-cols-1 md:items-start md:py-4 p-6 gap-5">
         <div>
           <h1 className="text-3xl mb-3">Get in Touch</h1>
           <Logo size={"text-xl"} />

@@ -50,7 +50,7 @@ function Card({ img, title, name, duration, id, minQualification }) {
           </p>
         </div>
         <div className="h-24 p-2">
-          <p className="text-center text-xl py-4">{name}</p>
+          <p className="text-center text-xl md:py-4 ">{name}</p>
         </div>
       </div>
     </div>

@@ -4,15 +4,15 @@ import Logo from "./Logo";
 function Header() {
   return (
     <div>
-      <header className="bg-blue-100">
+      <header className="bg-blue-100 ">
         <div className="flex gap-3 max-w-7xl mx-auto my-0 md:justify-between justify-center items-center h-24">
-          <div>
-            <Logo size={"text-3xl"} responsive={""} />
-            <h2 className="text-3xl my-2 text-blue-800 capitalize">
+          <div className="md:p-0 p-3 md:m-0 mt-6 text-center">
+            <Logo size={"text-3xl"} responsive={"text-lg"} />
+            <h2 className=" text-lg md:text-3xl my-2 text-blue-800 capitalize md:m-0 mb-4 ">
               Amtron Authorised computer Training center
             </h2>
           </div>
-          <div className="flex gap-3">
+          <div className="md:flex hidden gap-3  ">
             <div className="md:flex gap-2 justify-center items-center hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

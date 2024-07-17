@@ -39,10 +39,14 @@ function CourseSingle() {
           {course.name}
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto my-6 ">
-        <h1 className=" text-orange-500 text-4xl mb-3">Description</h1>
-        <p className="text-xl mb-4 text-gray-600">{course.description}</p>
-        <h1 className=" text-orange-500 text-4xl">Syllabus</h1>
+      <div className="max-w-6xl mx-auto my-6 md:p-0 p-4 ">
+        <h1 className=" text-orange-500 md:text-4xl text-3xl mb-3">
+          Description
+        </h1>
+        <p className="md:text-xl text-lg mb-4 text-gray-600 ">
+          {course.description}
+        </p>
+        <h1 className=" text-orange-500 md:text-4xl text-3xl">Syllabus</h1>
         <div className="mt-2">
           <Syllabus courseTitle={course.title} SyllabusData={SyllabusData} />
         </div>
