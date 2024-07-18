@@ -5,7 +5,6 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import CoursePage from "./pages/CoursePage";
 import CourseSingle from "./pages/CourseSingle";
-import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/course/:id/:name" element={<CourseSingle />} />
-        <SpeedInsights />
       </Route>
     </Routes>
   );
