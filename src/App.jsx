@@ -5,7 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import CoursePage from "./pages/CoursePage";
 import CourseSingle from "./pages/CourseSingle";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
