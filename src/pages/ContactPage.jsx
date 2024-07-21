@@ -25,7 +25,9 @@ function ContactPage() {
           </div>
         </div>
         <div className="mt-6 lg:mt-0 lg:ml-6 flex-grow">
-          <Map />
+          <div className="w-full">
+            <Map />
+          </div>
         </div>
       </div>
       <h1 className="text-center text-3xl my-4">Contact Us</h1>
