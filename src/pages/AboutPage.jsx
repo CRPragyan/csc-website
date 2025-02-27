@@ -6,8 +6,10 @@ function AboutPage() {
     { src: "img/img1.jpg", alt: "Image 1" },
     { src: "img/img2.jpg", alt: "Image 2" },
     { src: "img/img3.jpg", alt: "Image 3" },
-    { src: "img/img4.jpg", alt: "Image 4" },
     { src: "img/img5.jpg", alt: "Image 5" },
+    { src: "img/img6.jpg", alt: "Image 5" },
+    { src: "img/img7.jpg", alt: "Image 5" },
+
   ];
 
   return (
