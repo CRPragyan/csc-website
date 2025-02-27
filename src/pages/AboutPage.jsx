@@ -9,6 +9,8 @@ function AboutPage() {
     { src: "img/img5.jpg", alt: "Image 5" },
     { src: "img/img6.jpg", alt: "Image 5" },
     { src: "img/img7.jpg", alt: "Image 5" },
+    { src: "img/img8.jpg", alt: "Image 5" },
+
 
   ];
 

@@ -17,6 +17,9 @@ const slides = [
   {
     url: "/img/img7.jpg",
   },
+  {
+    url: "/img/img8.jpg",
+  },
 ];
 
 export { slides };
